@@ -1,0 +1,76 @@
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 400px;
+    width: 1300px;
+    border: 1px;
+    background: url(https://cn.lnwfile.com/_/cn/_raw/6o/63/eq.jpg) no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.myheader{
+    border: 1px;
+    width: 500px;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    color: black;
+}
+.myheader h1{
+    font-family: FC Iconic;
+    font-size: 4rem;
+}
+.myheader p{
+    font-family: FC Iconic;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    line-height: 1;
+}
+
+main{
+    height: 550px;
+    width: 1300px;
+    border: 1px;
+    margin-left: 15rem;
+    background: url(https://mpics.mgronline.com/pics/Images/560000000622401.JPEG)  no-repeat;
+    background-size: contain;
+    background-position: left;
+    padding: 3rem 4;
+}
+
+main>p{
+    font-family: FC Iconic;
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 28rem;
+    margin-right: 15rem;
+    margin-bottom: 5rem;
+}
+
+footer{
+    margin-top: 4rem;
+    font-family: FC Iconic;
+    font-size: 1.3rem;
+    line-height: 1;
+    background: rgb(204, 197, 197);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.myfont{
+    
+    @font-face {
+        font-family: FC Iconic;
+        src: url(fonts/FC Iconic Regular.ttf);
+    }
+}
